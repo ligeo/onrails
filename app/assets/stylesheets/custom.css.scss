@@ -8,12 +8,11 @@ $navbarBackgroundHighlight: white;
 $navbarBackground: white;
 
 @import "bootstrap";
+@import "bootstrap-responsive";
 
 body {
   padding-top: 60px;
 }
-
-@import "bootstrap-responsive";
 
 /*Delete shadow under the navbar */
 
