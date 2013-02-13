@@ -4,6 +4,7 @@ Onrails::Application.routes.draw do
   root :to => 'static_pages#home'
   get "about" => "static_pages#about"
   get "gift" => "static_pages#gift"
+  get "love" => "static_pages#love"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
